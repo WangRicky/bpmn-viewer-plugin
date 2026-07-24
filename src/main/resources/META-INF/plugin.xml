@@ -1,0 +1,47 @@
+<idea-plugin>
+    <id>com.rickytech.bpmn.viewer</id>
+    <name>BPMN Viewer &amp; Editor</name>
+    <vendor>rickytech</vendor>
+    <version>2.3.2</version>
+    <description><![CDATA[
+        BPMN Process Viewer &amp; Editor for IntelliJ IDEA - Activiti Friendly.
+        <br/><br/>
+        <b>查看功能：</b>
+        <ul>
+          <li>可视化渲染 Activiti BPMN 2.0 流程图</li>
+          <li>支持所有 Activiti 任务、网关、事件类型</li>
+          <li>自动布局 (Sugiyama) 和 DI 坐标渲染</li>
+          <li>正交连线路由 / Ctrl+滚轮缩放 / 拖拽平移</li>
+          <li>节点/连线选择 + 详情面板查看，跳转 Java 实现类与子流程</li>
+        </ul>
+        <b>编辑功能：</b>
+        <ul>
+          <li>拖拽创建/移动节点</li>
+          <li>可视化连线工具</li>
+          <li>属性双向编辑</li>
+          <li>撤销/重做</li>
+          <li>保存为 Activiti 兼容 BPMN XML</li>
+          <li>流程校验</li>
+        </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="BPMN"
+                  implementationClass="com.rickytech.bpmn.viewer.BpmnFileType"
+                  fieldName="INSTANCE"
+                  extensions="bpmn"/>
+        <fileEditorProvider implementation="com.rickytech.bpmn.viewer.BpmnFileEditorProvider"/>
+    </extensions>
+
+    <actions>
+        <action id="bpmn.newFile"
+                class="com.rickytech.bpmn.viewer.NewBpmnFileAction"
+                text="BPMN Process"
+                description="Create a new BPMN process file">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
