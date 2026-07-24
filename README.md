@@ -10,7 +10,7 @@
 [![JDK](https://img.shields.io/badge/JDK-17-red.svg)](https://adoptium.net/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Open, review and edit `.bpmn` files directly inside IntelliJ IDEA — no need to switch to an external modeling tool. The plugin renders diagrams with pure Swing + Java2D and is designed for Java backend developers using the **Activiti 5.x / 6.x** workflow engine.
+Open, review and edit `.bpmn` files directly inside IntelliJ IDEA — no need to switch to an external modeling tool. The plugin renders diagrams with pure Swing + Java2D and is designed for Java backend developers using the **Activiti** workflow engine.
 
 ---
 

@@ -10,7 +10,7 @@
 [![JDK](https://img.shields.io/badge/JDK-17-red.svg)](https://adoptium.net/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-在 IntelliJ IDEA 中直接打开、审阅并编辑 `.bpmn` 文件——无需切换到外部建模工具。插件使用纯 Swing + Java2D 渲染，专为使用 **Activiti 5.x / 6.x** 工作流引擎的 Java 后端开发者设计。
+在 IntelliJ IDEA 中直接打开、审阅并编辑 `.bpmn` 文件——无需切换到外部建模工具。插件使用纯 Swing + Java2D 渲染，专为使用 **Activiti** 工作流引擎的 Java 后端开发者设计。
 
 ---
 
