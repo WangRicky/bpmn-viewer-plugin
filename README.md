@@ -4,7 +4,7 @@
 
 > A **BPMN 2.0 diagram viewer + editor** plugin for IntelliJ IDEA, Activiti-friendly.
 
-[![Version](https://img.shields.io/badge/version-2.3.2-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.3-blue.svg)](CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/IntelliJ%20IDEA-2024.3.5%2B-orange.svg)](https://www.jetbrains.com/idea/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.25-purple.svg)](https://kotlinlang.org/)
 [![JDK](https://img.shields.io/badge/JDK-17-red.svg)](https://adoptium.net/)
@@ -42,7 +42,7 @@ Open, review and edit `.bpmn` files directly inside IntelliJ IDEA — no need to
 1. Download or build the plugin ZIP (see [Build](#-build) below)
 2. Open IntelliJ IDEA → **Settings / Preferences → Plugins**
 3. Click the gear icon → **Install Plugin from Disk...**
-4. Select `build/distributions/bpmn-viewer-plugin-2.3.2.zip`
+4. Select `build/distributions/bpmn-viewer-plugin-2.3.3.zip`
 5. Restart the IDE
 
 ### Option 2: Development / sandbox mode

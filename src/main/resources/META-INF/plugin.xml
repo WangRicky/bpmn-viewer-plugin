@@ -2,7 +2,7 @@
     <id>com.rickytech.bpmn.viewer</id>
     <name>BPMN Viewer &amp; Editor</name>
     <vendor>rickytech</vendor>
-    <version>2.3.2</version>
+    <version>2.3.3</version>
     <description><![CDATA[
         BPMN Process Viewer &amp; Editor for IntelliJ IDEA - Activiti Friendly.
         <br/><br/>

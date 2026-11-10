@@ -8,13 +8,17 @@
 - **目标用户**：使用 Activiti 5.x / 6.x 工作流引擎、需要在 IDEA 内直接打开/审阅/修改 `.bpmn` 文件的 Java 后端开发者。
 - **技术栈**：
   - 语言：Kotlin 1.9.25 / Java 17
-  - 平台：IntelliJ Platform Gradle Plugin 2.2.1，目标 IDE 版本 `2024.3.5`（构建号 `243` ~ `251`）
+  - 平台：IntelliJ Platform Gradle Plugin 2.2.1，编译目标 IDE 版本 `2024.3.5`（兼容构建号 `243`–`263`）
   - UI：Swing + Java2D（无第三方图形库）
   - 解析：JDK 内置 DOM Parser（namespace-aware）
 - **主要入口**：[BpmnFileEditorProvider](src/main/kotlin/com/rickytech/bpmn/viewer/BpmnFileEditorProvider.kt) → [BpmnFileEditor](src/main/kotlin/com/rickytech/bpmn/viewer/BpmnFileEditor.kt)，注册见 [plugin.xml](src/main/resources/META-INF/plugin.xml)。
-- **当前版本**：`gradle.properties` 与 [plugin.xml](src/main/resources/META-INF/plugin.xml) 已同步对齐为 `2.3.0`。
+- **当前版本**：`gradle.properties` 与 [plugin.xml](src/main/resources/META-INF/plugin.xml) 已同步对齐为 `2.3.3`。
 
 ## 版本历史
+
+### v2.3.3（兼容 IntelliJ IDEA 2026.3）
+
+- 将插件兼容上限提高到 `263.*`，并通过 IDEA 2026.3 正式版的二进制兼容性检查。
 
 ### v2.3.2（属性面板文本可选中复制）
 

@@ -4,7 +4,7 @@
 
 > 面向 IntelliJ IDEA 的 Activiti 友好型 BPMN 2.0 流程图 **查看 + 编辑** 插件。
 
-[![Version](https://img.shields.io/badge/version-2.3.2-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.3.3-blue.svg)](CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/IntelliJ%20IDEA-2024.3.5%2B-orange.svg)](https://www.jetbrains.com/idea/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.25-purple.svg)](https://kotlinlang.org/)
 [![JDK](https://img.shields.io/badge/JDK-17-red.svg)](https://adoptium.net/)
@@ -42,7 +42,7 @@
 1. 下载或构建插件 ZIP 包（见下方[构建](#-构建)）
 2. 打开 IntelliJ IDEA → **Settings / Preferences → Plugins**
 3. 点击齿轮图标 → **Install Plugin from Disk...**
-4. 选择 `build/distributions/bpmn-viewer-plugin-2.3.2.zip`
+4. 选择 `build/distributions/bpmn-viewer-plugin-2.3.3.zip`
 5. 重启 IDE
 
 ### 方式二：开发/沙箱模式
