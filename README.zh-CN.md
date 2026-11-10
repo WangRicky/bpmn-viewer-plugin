@@ -61,7 +61,7 @@ gradlew.bat runIde    # Windows
 **环境要求**
 
 - JDK 17+
-- IntelliJ IDEA 2024.3.5+（构建号 243 ~ 251）
+- IntelliJ IDEA 2024.3.5 至 2026.3（构建号 243–263）
 
 **命令**
 

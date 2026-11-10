@@ -61,7 +61,7 @@ This launches a sandbox IDE instance with the plugin pre-installed.
 **Requirements**
 
 - JDK 17+
-- IntelliJ IDEA 2024.3.5+ (build 243 ~ 251)
+- IntelliJ IDEA 2024.3.5 through 2026.3 (builds 243–263)
 
 **Commands**
 
